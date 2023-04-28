@@ -1,0 +1,146 @@
+@font-face {
+    font-family: HankenGrotesk;
+    src: url(../assets/font/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: HankenGrotesk;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.resultcontainer {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 300px;
+    height: 420px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 50px;
+}
+
+h4 {
+    color: #C0C0C0;
+    font-size: 18px;
+}
+
+h2 {
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 35px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.circle {
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.summarycontainer {
+    background-color: white;
+    width: 300px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 35px 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 10px 10px 40px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+.summarycontainer h4 {
+    color: black;
+    margin: 0;
+}
+
+.span-color{
+    color: black;
+} 
+
+.summery-box1 {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.summery-box1 .title {
+    color: hsl(0, 100%, 67%);
+    margin: 0px 30px 0px -20px;
+}
+
+.summery-box2 {
+    background-color: hsla(39, 100%, 56%, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.summery-box2 .title {
+    color: hsl(39, 100%, 56%);
+    margin: 0px 30px 0px -20px;
+}
+
+.summery-box3 {
+    background-color: hsla(166, 100%, 37%, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.summery-box3 .title {
+    color: hsl(166, 100%, 37%);
+    margin: 0px 30px 0px -20px;
+}
+
+.summery-box4 {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.summery-box4 .title {
+    color: hsl(234, 85%, 45%);
+    margin: 0px 30px 0px -20px;
+}
+
+button {
+    border-radius: 30px;
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+}
+
+@media (max-width: 375px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
